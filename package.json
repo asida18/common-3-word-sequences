@@ -4,7 +4,7 @@
   "description": "Executable program that returns list og ther 100 most common three word sequences from given text(s).",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -21,5 +21,9 @@
   "homepage": "https://github.com/asida18/common-3-word-sequences#readme",
   "dependencies": {
     "async": "^3.2.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^8.2.1"
   }
 }
