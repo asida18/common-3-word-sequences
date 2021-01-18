@@ -28,4 +28,4 @@ node index.js test.txt
 ```
  
 ## What you would do next, given more time (if anything)?
-If given more time, I would definitely replace the node fs module implementation for filesystem reading with Streams. Streams is more performant and both memory and time efficient. 
+If given more time, I would definitely replace the node fs module implementation for filesystem reading with Streams. Streams is more performant and both memory and time efficient. I would also convert the logic for asynchronous file reading into its own class, since I could see that being reused in other areas.
