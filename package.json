@@ -1,0 +1,25 @@
+{
+  "name": "common-3-word-sequences",
+  "version": "1.0.0",
+  "description": "Executable program that returns list og ther 100 most common three word sequences from given text(s).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/asida18/common-3-word-sequences.git"
+  },
+  "author": "Adrian S.",
+  "license": "ISC",
+  "bin": {
+    "run": "index.js"
+  },
+  "bugs": {
+    "url": "https://github.com/asida18/common-3-word-sequences/issues"
+  },
+  "homepage": "https://github.com/asida18/common-3-word-sequences#readme",
+  "dependencies": {
+    "async": "^3.2.0"
+  }
+}
